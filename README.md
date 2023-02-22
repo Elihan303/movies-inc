@@ -95,3 +95,4 @@ En el siguiente apartado se puede vizualizar peliculas similares a la pelicula d
 Donde se muestra poster, titulo y fecha de lanzamiento de la pelicula.
 
 ![image](https://user-images.githubusercontent.com/70291386/220763020-d88c5d46-8817-46ac-91f8-ccf01fb49ea3.png)
+En el siguiente apartado se puede vizualizar los actores y sus personajes dentro de la pelicula y una foto para los que tenga disponible.
