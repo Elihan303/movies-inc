@@ -84,6 +84,18 @@ export class MoviesServices implements IMoviesServices {
     });
     return prome;
   }
+  ObtenerPeliculasRecomendadas(id: number): Promise<any> {
+    const prome = new Promise<any>((resolve, reject) => {
+      APIMovies.get(`/movie/${id}/recommendations`)
+        .then((res: any) => {
+          resolve(res);
+        })
+        .catch((err: any) => {
+          reject(err);
+        });
+    });
+    return prome;
+  }
 }
 
 const Movies = new MoviesServices();

@@ -21,6 +21,7 @@ import RateMovie from "../components/DetailsComponents/RateMovie";
 import ToastComponent from "../components/DetailsComponents/ToastComponent";
 import ContextAuth from "../Context/ContextAuth";
 import { API_PHOTOS_URL } from "@env";
+import SimilarMovie from "../components/DetailsComponents/SimilarMovie";
 
 const Details = ({
   route,
@@ -155,6 +156,8 @@ const Details = ({
           </Box>
 
           <Characters movieId={globalMovieId} />
+
+          <SimilarMovie movieId={globalMovieId} />
         </Center>
       </ScrollView>
     </View>

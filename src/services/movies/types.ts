@@ -5,4 +5,5 @@ export interface IMoviesServices {
   PostCalificacion(id: number, data: any, session_id: string): Promise<any>;
   CrearSesionInvitado(): Promise<any>;
   ObtenerCalificacionPelicula(guest_session_id: any): Promise<any>;
+  ObtenerPeliculasRecomendadas(id: number): Promise<any>;
 }
