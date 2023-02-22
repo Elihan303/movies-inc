@@ -86,4 +86,4 @@ En el siguiente apartado te permite calificar la pelicula con una valoracion de 
 
 ![image](https://user-images.githubusercontent.com/70291386/220749978-b2fd6890-5f11-478f-a053-46452618baa2.png)
 
-En el siguiente apartado se puede vizualizar los actores y sus personajes dedntro de la pelicula y una foto para los que tenga disponible.
+En el siguiente apartado se puede vizualizar los actores y sus personajes dentro de la pelicula y una foto para los que tenga disponible.
